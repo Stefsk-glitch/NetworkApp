@@ -1,18 +1,15 @@
+package handlers;
+
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 import org.json.simple.JSONValue;
-import org.json.simple.parser.JSONParser;
-import org.json.simple.parser.ParseException;
 
-import java.io.File;
 import java.io.IOException;
-import java.nio.file.Files;
-import java.nio.file.Paths;
+
+import tree.*;
 
 import java.io.*;
-import org.json.*;
 
-import java.io.*;
 import java.net.Socket;
 import java.util.stream.Collectors;
 
