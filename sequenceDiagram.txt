@@ -1,0 +1,17 @@
+https://sequencediagram.org/
+
+title Sequence diagram
+
+Client->Server:Connect to server
+Server->Client:Send username prompt
+Client-->Server:Receive username
+Server->Client:Send password prompt
+Client-->Server:Receive password
+Server-->Client:Receive validation
+Server->Client:Send action Prompt
+Client->Server:Receive action
+Server->Client:Send text Prompt
+Client->Server:Receive text
+Server->Client:Receive confirmation
+Server->Client:Send disconnect signal
+Server->Client:Close connection
